@@ -1,0 +1,2063 @@
+fileFormatVersion: 2
+guid: cc4fb46cbe8edf440b53ee0bb845956a
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DungeonTileSetRedimension_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 678.1818
+        width: 69.111115
+        height: 67.818184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb6e6fddfe82b8846b0060260ea6d89c
+      internalID: -2129683683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetRedimension_1
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 678.1818
+        width: 69.111115
+        height: 67.818184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1109422a82bc9a45a449fa3b9642dea
+      internalID: -917538306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetRedimension_2
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 678.1818
+        width: 69.111115
+        height: 67.818184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fd4546df82b4344a9a908221960eb12
+      internalID: 828188036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetRedimension_3
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 678.1818
+        width: 69.111115
+        height: 67.818184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1773a78c32f6f341aae09dea7a222b2
+      internalID: -1356619187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetRedimension_4
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 678.1818
+        width: 69.111115
+        height: 67.818184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72441bafeee236d468838d7789f9a55c
+      internalID: 1278977203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetRedimension_5
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 678.1818
+        width: 69.111115
+        height: 67.818184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3be64c6d3b08203458b7ad68b61357bc
+      internalID: 1645594614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetRedimension_6
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 678.1818
+        width: 69.111115
+        height: 67.818184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e780a8d3e489c80499e620fec6c1ac4e
+      internalID: 1166197681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetRedimension_7
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 678.1818
+        width: 69.111115
+        height: 67.818184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27ba374c8b1efb24982faad346e36d6c
+      internalID: -1112865405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetRedimension_8
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 678.1818
+        width: 69.111115
+        height: 67.818184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d58817848e451a4419a3b283eb9ba3f7
+      internalID: -2025000286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetRedimension_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 611.1818
+        width: 69.111115
+        height: 67.818184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 658dae9b62628e5459ff172a44a58fa9
+      internalID: 1044026093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetRedimension_10
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 611.1818
+        width: 69.111115
+        height: 67.818184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cc0dca87c1752d4fb145d7d6b546d7c
+      internalID: 634259162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetRedimension_11
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 611.1818
+        width: 69.111115
+        height: 67.818184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40fc6351a8c0d864296c19e212bedf2b
+      internalID: -538470779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetRedimension_12
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 611.1818
+        width: 69.111115
+        height: 67.818184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3145d39c7fbd8a245acfda8a379b03eb
+      internalID: -202271726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetRedimension_13
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 611.1818
+        width: 69.111115
+        height: 67.818184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c796532d53c5a742b564167eab6e54d
+      internalID: 530035451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetRedimension_14
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 611.1818
+        width: 69.111115
+        height: 67.818184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3bc42373d0359344b6e7384c7f82b5d
+      internalID: -433514183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetRedimension_15
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 611.1818
+        width: 69.111115
+        height: 67.818184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60aa34c0cf300de46ad15898c0f7f9f3
+      internalID: -1895798608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetRedimension_16
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 611.1818
+        width: 69.111115
+        height: 67.818184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77cd76e5409cbf646891b455583283cb
+      internalID: 1530314116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetRedimension_17
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 611.1818
+        width: 69.111115
+        height: 67.818184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 761d1f6b1c4718c4996373d151f38f39
+      internalID: 363691834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetRedimension_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 544.1818
+        width: 69.111115
+        height: 67.818184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1f0225060a893d4db6ae3086128e82c
+      internalID: 1087031594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetRedimension_19
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 544.1818
+        width: 69.111115
+        height: 67.818184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afdf461aaa0f66147b0ea00b9cc6589e
+      internalID: -407337462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetRedimension_20
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 544.1818
+        width: 69.111115
+        height: 67.818184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52a4f9a041f488242b52f1570fbb8f2e
+      internalID: -593346153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetRedimension_21
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 544.1818
+        width: 69.111115
+        height: 67.818184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2efe7296a29fa04a995fe3dba810f00
+      internalID: -256965635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetRedimension_22
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 544.1818
+        width: 69.111115
+        height: 67.818184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a43307ff4f106c4db733e285bf89adc
+      internalID: 657643606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetRedimension_23
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 544.1818
+        width: 69.111115
+        height: 67.818184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1583d6fa8dbfa2e4392b6e6828bd52e4
+      internalID: -367893784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetRedimension_24
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 544.1818
+        width: 69.111115
+        height: 67.818184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86b533d91e255cf4da29ec534a36df92
+      internalID: -1197935364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetRedimension_25
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 544.1818
+        width: 69.111115
+        height: 67.818184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8f6843e0f4e7f34ea8e32de825bf792
+      internalID: -1357539123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetRedimension_26
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 544.1818
+        width: 69.111115
+        height: 67.818184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a01f4ef0c4673e4d83abab1e5783d4a
+      internalID: -1190728172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetRedimension_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 477.18182
+        width: 69.111115
+        height: 67.818184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f90734a0ea1acda4b96f0b96cbf601a5
+      internalID: 1466001830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetRedimension_28
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 477.18182
+        width: 69.111115
+        height: 67.818184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd4bc133dda04a74cb89940e27c80bae
+      internalID: -83635236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetRedimension_29
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 477.18182
+        width: 69.111115
+        height: 67.818184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6281705d17753c240b9f8d85b0189eaa
+      internalID: 307924300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetRedimension_30
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 477.18182
+        width: 69.111115
+        height: 67.818184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4d29ef11106f31499ba8e442b90a16c
+      internalID: -1991099390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetRedimension_31
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 477.18182
+        width: 69.111115
+        height: 67.818184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abb454baefdd12245933131dc83ab29b
+      internalID: -1349335047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetRedimension_32
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 477.18182
+        width: 69.111115
+        height: 67.818184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d40b53dd54e04934994a378f98486194
+      internalID: -1972986776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetRedimension_33
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 477.18182
+        width: 69.111115
+        height: 67.818184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16937c4159dcc33439d5b2789efa30e7
+      internalID: 1945319398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetRedimension_34
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 477.18182
+        width: 69.111115
+        height: 67.818184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5adb1556de6807439a2dbd368d78b92
+      internalID: -270023893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetRedimension_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 410.18182
+        width: 69.111115
+        height: 67.818184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1679da72dc8d6742aa7d17862ef668d
+      internalID: 1694935055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetRedimension_36
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 410.18182
+        width: 69.111115
+        height: 67.818184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48420af9191458c4180d6410a2e278fa
+      internalID: 1745483594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetRedimension_37
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 410.18182
+        width: 69.111115
+        height: 67.818184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baa137c749067cf4a83d9ca1abaf34ad
+      internalID: 1041954507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetRedimension_38
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 410.18182
+        width: 69.111115
+        height: 67.818184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 096ce186c706a8348805145a2781fefd
+      internalID: -1342625706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetRedimension_39
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 410.18182
+        width: 69.111115
+        height: 67.818184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9ad5254280677846aa4439d29dd980e
+      internalID: 1128619905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetRedimension_40
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 410.18182
+        width: 69.111115
+        height: 67.818184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfb20318df6af944fbad42b751204005
+      internalID: 968039503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetRedimension_41
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 410.18182
+        width: 69.111115
+        height: 67.818184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d480d349415acda44baf2b9351912357
+      internalID: 1856800540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetRedimension_42
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 410.18182
+        width: 69.111115
+        height: 67.818184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f84df93bcf1a68b4a9bed6237e285373
+      internalID: -2055421070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetRedimension_43
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 343.18182
+        width: 69.111115
+        height: 67.818184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2369f03b01c92fe4b9b82164687bbf94
+      internalID: 340266163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetRedimension_44
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 343.18182
+        width: 69.111115
+        height: 67.818184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6a51cb213dd4a1489da1425d276fc56
+      internalID: 271982445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetRedimension_45
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 343.18182
+        width: 69.111115
+        height: 67.818184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5706d75daa59b6a499b6fc2e38e557b1
+      internalID: 822788045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetRedimension_46
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 343.18182
+        width: 69.111115
+        height: 67.818184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 105cb440228090a4e90cff3944a46b3f
+      internalID: 1785392925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetRedimension_47
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 343.18182
+        width: 69.111115
+        height: 67.818184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e558a0eb0402d2408b6ebbcb6b1f3ee
+      internalID: -1883143195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetRedimension_48
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 343.18182
+        width: 69.111115
+        height: 67.818184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce4ae1c7731a20a478a0085715b14c05
+      internalID: -23976711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetRedimension_49
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 343.18182
+        width: 69.111115
+        height: 67.818184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb4eedf1c56e83348bf44fd7b2d27a43
+      internalID: 1715454633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetRedimension_50
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 343.18182
+        width: 69.111115
+        height: 67.818184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c974f776c20f92441a463d3b0723dbe7
+      internalID: 1679769885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetRedimension_51
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 343.18182
+        width: 69.111115
+        height: 67.818184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af45aae40e8b391428d88afc63222b55
+      internalID: 1107908030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetRedimension_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 276.18182
+        width: 69.111115
+        height: 67.818184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc868be1acea2ac4db595c582341918a
+      internalID: 988318334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetRedimension_53
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 276.18182
+        width: 69.111115
+        height: 67.818184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84426369717d25a49996633f4b8050a4
+      internalID: 1993048086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetRedimension_54
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 276.18182
+        width: 69.111115
+        height: 67.818184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5f8b4416b31d294fa7473aa64e8e10b
+      internalID: 373640244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetRedimension_55
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 276.18182
+        width: 69.111115
+        height: 67.818184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb1d76d3f355d0746b198a2d187d6d1d
+      internalID: -1072059988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetRedimension_56
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 276.18182
+        width: 69.111115
+        height: 67.818184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25dfaf46ff63836488b566e30bf1d9f6
+      internalID: -1348218827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetRedimension_57
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 276.18182
+        width: 69.111115
+        height: 67.818184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1d1df07449f9ae46bb069b207fa53a5
+      internalID: -547696904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetRedimension_58
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 276.18182
+        width: 69.111115
+        height: 67.818184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8144becb08e892243b60c33fd315c4fa
+      internalID: -189418670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetRedimension_59
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 276.18182
+        width: 69.111115
+        height: 67.818184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c073348d1d3638428b92a8ad9b7fb4e
+      internalID: -1540223990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetRedimension_60
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 276.18182
+        width: 69.111115
+        height: 67.818184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d94745fd90369e54e9a9e0b3bfa1dc17
+      internalID: 1013681325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetRedimension_61
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 209.18182
+        width: 69.111115
+        height: 67.818184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4e51cbf270fd674d83993fc755f5fb8
+      internalID: -2031060611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetRedimension_62
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 209.18182
+        width: 69.111115
+        height: 67.818184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb29babac3257074aa4dc0ff5b8b112a
+      internalID: -1910006099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetRedimension_63
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 209.18182
+        width: 69.111115
+        height: 67.818184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66efb76f1661d414fb0e686f82c1d2fc
+      internalID: -1266971356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetRedimension_64
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 209.18182
+        width: 69.111115
+        height: 67.818184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81ba8baf81fb7204287ab4868eab39fe
+      internalID: -1944341166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetRedimension_65
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 209.18182
+        width: 69.111115
+        height: 67.818184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab42999346bda1c43bd749d473b95d68
+      internalID: 1239334782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetRedimension_66
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 209.18182
+        width: 69.111115
+        height: 67.818184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50ac1212a5d1d5d4fbedad2afa18286a
+      internalID: -454640433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetRedimension_67
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 209.18182
+        width: 69.111115
+        height: 67.818184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cd9cc176ea4ead4aa2305f4d9f02c6d
+      internalID: 1211114340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetRedimension_68
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 209.18182
+        width: 69.111115
+        height: 67.818184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07cfbee17e461a34983b108b1cf1488d
+      internalID: -209327045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetRedimension_69
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 209.18182
+        width: 69.111115
+        height: 67.818184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8936589b9576a5d41862fe37715843e9
+      internalID: 2075980651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetRedimension_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 142.18182
+        width: 69.111115
+        height: 67.818184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 436ae8d8e7ba92845a72cc6a2fc61d61
+      internalID: -672046279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetRedimension_71
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 142.18182
+        width: 69.111115
+        height: 67.818184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c2e5262ffb8f5e41b4737b0db2375e7
+      internalID: -1505185558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetRedimension_72
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 142.18182
+        width: 69.111115
+        height: 67.818184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2448f8463d936e04c86ca7ed876614e5
+      internalID: -795189923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetRedimension_73
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 142.18182
+        width: 69.111115
+        height: 67.818184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 075e382691a2835489395600a24dc3ae
+      internalID: -264299645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetRedimension_74
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 142.18182
+        width: 69.111115
+        height: 67.818184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91d4199e59e2f624889a0e434e9a622c
+      internalID: 271237724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetRedimension_75
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 142.18182
+        width: 69.111115
+        height: 67.818184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8f88797c843c1f4bb8723dbcf96c600
+      internalID: 418256531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetRedimension_76
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 142.18182
+        width: 69.111115
+        height: 67.818184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dee1a127a7a0e114eb9eb9a6ec888f60
+      internalID: -347130853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetRedimension_77
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 142.18182
+        width: 69.111115
+        height: 67.818184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f36d9eb73c380f946bc680da2ed08530
+      internalID: 207673260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetRedimension_78
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 142.18182
+        width: 69.111115
+        height: 67.818184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 114a790eed38c334ea3ebfbd3327b997
+      internalID: 1482026310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetRedimension_79
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 75.181816
+        width: 69.111115
+        height: 67.818184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f536f0c78e570c647829396316034bbe
+      internalID: 1086957689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetRedimension_80
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 75.181816
+        width: 69.111115
+        height: 67.818184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2051c1a7d4739f94e846bd2e753a768d
+      internalID: 1217827574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetRedimension_81
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 75.181816
+        width: 69.111115
+        height: 67.818184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5de95871ae90df94a9852855a2d123a4
+      internalID: 1987387275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetRedimension_82
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 75.181816
+        width: 69.111115
+        height: 67.818184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c04c7290d262a44db1a7d5a4830025e
+      internalID: -1579094959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetRedimension_83
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 75.181816
+        width: 69.111115
+        height: 67.818184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af0410f35a811fc4fac8b9e46e98d624
+      internalID: -473074222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetRedimension_84
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 75.181816
+        width: 69.111115
+        height: 67.818184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 233266de6c763c24e8c21bb9f554baa2
+      internalID: 1924995701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetRedimension_85
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 75.181816
+        width: 69.111115
+        height: 67.818184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 264f7d7a875713b499b7b3a51167aca4
+      internalID: 484560566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetRedimension_86
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 75.181816
+        width: 69.111115
+        height: 67.818184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 045c91e6b33aac840952bcffd2600365
+      internalID: -952888626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonTileSetRedimension_87
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 75.181816
+        width: 69.111115
+        height: 67.818184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1df5519a0359c844a86b2cfa6563cd36
+      internalID: 631737009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      DungeonTileSetRedimension_0: -2129683683
+      DungeonTileSetRedimension_1: -917538306
+      DungeonTileSetRedimension_10: 634259162
+      DungeonTileSetRedimension_11: -538470779
+      DungeonTileSetRedimension_12: -202271726
+      DungeonTileSetRedimension_13: 530035451
+      DungeonTileSetRedimension_14: -433514183
+      DungeonTileSetRedimension_15: -1895798608
+      DungeonTileSetRedimension_16: 1530314116
+      DungeonTileSetRedimension_17: 363691834
+      DungeonTileSetRedimension_18: 1087031594
+      DungeonTileSetRedimension_19: -407337462
+      DungeonTileSetRedimension_2: 828188036
+      DungeonTileSetRedimension_20: -593346153
+      DungeonTileSetRedimension_21: -256965635
+      DungeonTileSetRedimension_22: 657643606
+      DungeonTileSetRedimension_23: -367893784
+      DungeonTileSetRedimension_24: -1197935364
+      DungeonTileSetRedimension_25: -1357539123
+      DungeonTileSetRedimension_26: -1190728172
+      DungeonTileSetRedimension_27: 1466001830
+      DungeonTileSetRedimension_28: -83635236
+      DungeonTileSetRedimension_29: 307924300
+      DungeonTileSetRedimension_3: -1356619187
+      DungeonTileSetRedimension_30: -1991099390
+      DungeonTileSetRedimension_31: -1349335047
+      DungeonTileSetRedimension_32: -1972986776
+      DungeonTileSetRedimension_33: 1945319398
+      DungeonTileSetRedimension_34: -270023893
+      DungeonTileSetRedimension_35: 1694935055
+      DungeonTileSetRedimension_36: 1745483594
+      DungeonTileSetRedimension_37: 1041954507
+      DungeonTileSetRedimension_38: -1342625706
+      DungeonTileSetRedimension_39: 1128619905
+      DungeonTileSetRedimension_4: 1278977203
+      DungeonTileSetRedimension_40: 968039503
+      DungeonTileSetRedimension_41: 1856800540
+      DungeonTileSetRedimension_42: -2055421070
+      DungeonTileSetRedimension_43: 340266163
+      DungeonTileSetRedimension_44: 271982445
+      DungeonTileSetRedimension_45: 822788045
+      DungeonTileSetRedimension_46: 1785392925
+      DungeonTileSetRedimension_47: -1883143195
+      DungeonTileSetRedimension_48: -23976711
+      DungeonTileSetRedimension_49: 1715454633
+      DungeonTileSetRedimension_5: 1645594614
+      DungeonTileSetRedimension_50: 1679769885
+      DungeonTileSetRedimension_51: 1107908030
+      DungeonTileSetRedimension_52: 988318334
+      DungeonTileSetRedimension_53: 1993048086
+      DungeonTileSetRedimension_54: 373640244
+      DungeonTileSetRedimension_55: -1072059988
+      DungeonTileSetRedimension_56: -1348218827
+      DungeonTileSetRedimension_57: -547696904
+      DungeonTileSetRedimension_58: -189418670
+      DungeonTileSetRedimension_59: -1540223990
+      DungeonTileSetRedimension_6: 1166197681
+      DungeonTileSetRedimension_60: 1013681325
+      DungeonTileSetRedimension_61: -2031060611
+      DungeonTileSetRedimension_62: -1910006099
+      DungeonTileSetRedimension_63: -1266971356
+      DungeonTileSetRedimension_64: -1944341166
+      DungeonTileSetRedimension_65: 1239334782
+      DungeonTileSetRedimension_66: -454640433
+      DungeonTileSetRedimension_67: 1211114340
+      DungeonTileSetRedimension_68: -209327045
+      DungeonTileSetRedimension_69: 2075980651
+      DungeonTileSetRedimension_7: -1112865405
+      DungeonTileSetRedimension_70: -672046279
+      DungeonTileSetRedimension_71: -1505185558
+      DungeonTileSetRedimension_72: -795189923
+      DungeonTileSetRedimension_73: -264299645
+      DungeonTileSetRedimension_74: 271237724
+      DungeonTileSetRedimension_75: 418256531
+      DungeonTileSetRedimension_76: -347130853
+      DungeonTileSetRedimension_77: 207673260
+      DungeonTileSetRedimension_78: 1482026310
+      DungeonTileSetRedimension_79: 1086957689
+      DungeonTileSetRedimension_8: -2025000286
+      DungeonTileSetRedimension_80: 1217827574
+      DungeonTileSetRedimension_81: 1987387275
+      DungeonTileSetRedimension_82: -1579094959
+      DungeonTileSetRedimension_83: -473074222
+      DungeonTileSetRedimension_84: 1924995701
+      DungeonTileSetRedimension_85: 484560566
+      DungeonTileSetRedimension_86: -952888626
+      DungeonTileSetRedimension_87: 631737009
+      DungeonTileSetRedimension_9: 1044026093
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
