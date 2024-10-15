@@ -15,6 +15,7 @@ public class MainCharacter : MonoBehaviour
 
     void Update()
     {
+        if (Time.timeScale == 0) return;
         
         if (Input.GetKey(KeyCode.A))
         {
