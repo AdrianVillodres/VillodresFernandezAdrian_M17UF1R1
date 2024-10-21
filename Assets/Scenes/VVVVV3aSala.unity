@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 97305902}
   - component: {fileID: 97305901}
   - component: {fileID: 97305900}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tilemap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4357,7 +4357,7 @@ GameObject:
   - component: {fileID: 384076679}
   - component: {fileID: 384076678}
   - component: {fileID: 384076677}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: MainCharacter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4500,7 +4500,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 0
   m_Sprite: {fileID: 545362284, guid: 71b77964294716c46848f86f084494f7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

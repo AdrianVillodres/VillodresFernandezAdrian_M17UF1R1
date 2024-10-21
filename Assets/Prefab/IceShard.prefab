@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2484706119851925232}
   - component: {fileID: 1877120132113333364}
   - component: {fileID: 7657128758427562351}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: IceShard
   m_TagString: Untagged
   m_Icon: {fileID: 0}

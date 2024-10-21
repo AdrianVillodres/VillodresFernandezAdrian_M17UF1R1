@@ -29,7 +29,7 @@ public class MainCharacter : MonoBehaviour
     public void Die()
     {
         animator.SetTrigger("Die");
-
+        StartCoroutine(CharacterDeath());
     }
 
     public void DisablePlayer()
@@ -41,13 +41,24 @@ public class MainCharacter : MonoBehaviour
     {
         transform.position = ResetPoint.transform.position;
         disabled = false;
-        rigidbody.velocity = new Vector3(0, 0, 0);
     }
 
-
+    private IEnumerator CharacterDeath()
+        {
+            DisablePlayer();
+            yield return new WaitForSeconds(animator.GetCurrentAnimatorClipInfo(3)[2].clip.length);
+            ResetPlayer();
+        }
 
     void Update()
     {
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, -transform.up, 3f);
+        Debug.DrawLine(transform.position, transform.position - transform.up * 3f, Color.red);
+        if (hit.collider != null && hit.collider.gameObject.layer == LayerMask.NameToLayer("Ground"))
+        {
+            Debug.Log(hit.collider.gameObject.name);
+        }
+
         if (!disabled)
         {
 
@@ -89,12 +100,7 @@ public class MainCharacter : MonoBehaviour
 
             }
         }
-        /*private IEnumerator CharacterDeath()
-        {
-            DisablePlayer();
-            yield return new WaitForSeconds(animator.GetCurrentAnimatorClipInfo(0)[2].clip.length);
-            ResetPlayer();
-        }*/
+        
 
     }
 }
