@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2484706119851925232}
   - component: {fileID: 1877120132113333364}
   - component: {fileID: 7657128758427562351}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: IceShard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -171,4 +171,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19ae88d687f111a41a060305e543c709, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _speed: 1
+  _speed: 1.71
