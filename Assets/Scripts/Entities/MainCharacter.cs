@@ -29,7 +29,6 @@ public class MainCharacter : MonoBehaviour
     public void Die()
     {
         animator.SetTrigger("Die");
-        StartCoroutine(CharacterDeath());
     }
 
     public void DisablePlayer()
@@ -43,21 +42,16 @@ public class MainCharacter : MonoBehaviour
         disabled = false;
     }
 
-    private IEnumerator CharacterDeath()
-        {
-            DisablePlayer();
-            yield return new WaitForSeconds(animator.GetCurrentAnimatorClipInfo(3)[2].clip.length);
-            ResetPlayer();
-        }
-
     void Update()
     {
-        RaycastHit2D hit = Physics2D.Raycast(transform.position, -transform.up, 3f);
-        Debug.DrawLine(transform.position, transform.position - transform.up * 3f, Color.red);
-        if (hit.collider != null && hit.collider.gameObject.layer == LayerMask.NameToLayer("Ground"))
-        {
-            Debug.Log(hit.collider.gameObject.name);
-        }
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, -transform.up, 1f);
+        Debug.DrawLine(transform.position, transform.position - transform.up * 1f, Color.red);
+
+        RaycastHit2D hitup = Physics2D.Raycast(transform.position, -transform.up, -1f);
+        Debug.DrawLine(transform.position, transform.position - transform.up * -1f, Color.red);
+
+        bool TouchGround = hit.collider != null && hit.collider.gameObject.layer == LayerMask.NameToLayer("Ground");
+        bool TouchInvertedGround = hitup.collider != null && hitup.collider.gameObject.layer == LayerMask.NameToLayer("Ground");
 
         if (!disabled)
         {
@@ -86,7 +80,7 @@ public class MainCharacter : MonoBehaviour
             }
 
 
-            if (Input.GetKeyDown(KeyCode.Space))
+            if (Input.GetKeyDown(KeyCode.Space) && (TouchGround || TouchInvertedGround))
             {
                 GetComponent<Rigidbody2D>().gravityScale *= -1;
                 if (spriteRenderer.flipY)
