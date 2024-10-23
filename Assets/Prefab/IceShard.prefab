@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 7657128758427562351}
   m_Layer: 7
   m_Name: IceShard
-  m_TagString: Untagged
+  m_TagString: Proyectile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

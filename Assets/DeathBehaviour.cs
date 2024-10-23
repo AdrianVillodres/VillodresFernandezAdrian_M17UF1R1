@@ -9,7 +9,6 @@ public class DeathBehaviour : StateMachineBehaviour
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         mc = animator.gameObject.GetComponent<MainCharacter>();
-        mc.DisablePlayer();
         animator.SetBool("Die", false);
     }
 

@@ -48,6 +48,7 @@ public class Spawner : MonoBehaviour
 
     private IEnumerator SpawnIceShard()
     {
+        AudioManager.audioManager.PlayProyectile();
         if(stack.Count != 0)
         {
             Pop();

@@ -20,15 +20,14 @@ public class MainCharacter : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.collider.gameObject.layer == 7)
+        if (collision.gameObject.CompareTag("Proyectile"))
         {
-            Die();
+            DisablePlayer();
+            animator.SetBool("Die", disabled);
+            AudioManager.audioManager.PlayHit();
+            AudioManager.audioManager.PlayDeath();
         }
-    }
 
-    public void Die()
-    {
-        animator.SetTrigger("Die");
     }
 
     public void DisablePlayer()
@@ -82,6 +81,7 @@ public class MainCharacter : MonoBehaviour
 
             if (Input.GetKeyDown(KeyCode.Space) && (TouchGround || TouchInvertedGround))
             {
+                AudioManager.audioManager.PlayJump();
                 GetComponent<Rigidbody2D>().gravityScale *= -1;
                 if (spriteRenderer.flipY)
                 {
@@ -93,8 +93,6 @@ public class MainCharacter : MonoBehaviour
                 }
 
             }
-        }
-        
-
+        } 
     }
 }
