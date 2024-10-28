@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Proyectile
   - Enemy
+  - TurnEnemy
   layers:
   - Default
   - TransparentFX
