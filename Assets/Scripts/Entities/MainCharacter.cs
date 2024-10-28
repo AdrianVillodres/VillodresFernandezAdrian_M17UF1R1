@@ -28,6 +28,14 @@ public class MainCharacter : MonoBehaviour
             AudioManager.audioManager.PlayDeath();
         }
 
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            DisablePlayer();
+            animator.SetBool("Die", disabled);
+            AudioManager.audioManager.PlayHit();
+            AudioManager.audioManager.PlayDeath();
+        }
+
     }
 
     public void DisablePlayer()
