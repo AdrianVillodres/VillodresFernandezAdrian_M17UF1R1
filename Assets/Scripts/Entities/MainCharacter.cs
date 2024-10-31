@@ -9,7 +9,7 @@ public class MainCharacter : MonoBehaviour
     private Rigidbody2D rigidbody;
     private Animator animator;
     private SpriteRenderer spriteRenderer;
-    public GameObject ResetPoint;
+    public GameObject Checkpoint;
     private bool disabled = false;
 
     void Start()
@@ -45,7 +45,7 @@ public class MainCharacter : MonoBehaviour
 
     public void ResetPlayer()
     {
-        transform.position = ResetPoint.transform.position;
+        transform.position = Checkpoint.transform.position;
         disabled = false;
     }
 

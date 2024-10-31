@@ -12,7 +12,7 @@ public class IceShard : MonoBehaviour
     }
 
     void OnEnable()
-    {
+    {   
         SetIceShard();
     }
 
