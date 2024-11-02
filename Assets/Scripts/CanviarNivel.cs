@@ -16,10 +16,4 @@ public class CanviarNivel: MonoBehaviour
     {
 
     }
-
-    void OnTriggerEnter2D(Collider2D other)
-    {
-        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
-        SceneManager.LoadScene(currentSceneIndex + 1);
-    }
 }

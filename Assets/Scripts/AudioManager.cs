@@ -9,9 +9,17 @@ public class AudioManager : MonoBehaviour
     void Start()
     {
         if (AudioManager.audioManager != null && AudioManager.audioManager != this)
-            Destroy(audioManager);
-        AudioManager.audioManager = this;       
-        backgoundMusic.Play();
+        {
+            Destroy(gameObject);
+        }
+        else
+        {
+            AudioManager.audioManager = this;
+            DontDestroyOnLoad(gameObject);
+            backgoundMusic.Play();
+        }
+            
+
     }
 
     public void PlayHit()

@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/VVVVV6aSala.unity
     guid: 79d1bbd8ef23dc749895da38ed6076c2
+  - enabled: 1
+    path: Assets/Scenes/VVVVV7aSala.unity
+    guid: e000c0ad2e4350847a77bcaac2d33669
   m_configObjects: {}

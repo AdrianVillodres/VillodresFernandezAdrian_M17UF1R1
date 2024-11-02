@@ -7,6 +7,11 @@ TagManager:
   - Proyectile
   - Enemy
   - TurnEnemy
+  - GoBack
+  - GoForward
+  - MainCharacter
+  - Checkpoint
+  - CharacterGoBack
   layers:
   - Default
   - TransparentFX
