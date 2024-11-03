@@ -12,6 +12,7 @@ TagManager:
   - MainCharacter
   - Checkpoint
   - CharacterGoBack
+  - Key
   layers:
   - Default
   - TransparentFX

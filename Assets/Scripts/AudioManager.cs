@@ -5,7 +5,7 @@ using UnityEngine;
 public class AudioManager : MonoBehaviour
 {
     public static AudioManager audioManager;
-    [SerializeField] private AudioSource backgoundMusic, hitSFX, DeathSFX, JumpSFX, ProyectileShootSFX; 
+    [SerializeField] private AudioSource backgoundMusic, hitSFX, DeathSFX, JumpSFX, ProyectileShootSFX, VictorySFX; 
     void Start()
     {
         if (AudioManager.audioManager != null && AudioManager.audioManager != this)
@@ -40,6 +40,11 @@ public class AudioManager : MonoBehaviour
     public void PlayProyectile()
     {
         ProyectileShootSFX.Play();
+    }
+
+    public void PlayWin()
+    {
+        VictorySFX.Play();
     }
 
 }

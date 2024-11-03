@@ -16,6 +16,7 @@ public class MainCharacter : MonoBehaviour
     public int escenaUltimoCheckpoint;
     public Vector3 checkpointPosition;
     public int lastCheckpointScene;
+    public static bool Pause;
     public List<List<Vector3>> Positions = new List<List<Vector3>>(){
         new List<Vector3> { new (0, 0), new(7.00f, -2.93f) },
         new List<Vector3> { new (-7.23f, -2.93f), new(7.20f, 2.94f) },
@@ -37,6 +38,7 @@ public class MainCharacter : MonoBehaviour
         {
             MainCharacter.maincharacter = this;
             DontDestroyOnLoad(gameObject);
+            Pause = false;
             rigidbody = GetComponent<Rigidbody2D>();
             animator = GetComponent<Animator>();
             spriteRenderer = GetComponent<SpriteRenderer>();
@@ -76,6 +78,18 @@ public class MainCharacter : MonoBehaviour
 
     void Update()
     {
+        if (Pause)
+        {
+            return;
+        }
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Time.timeScale = 0;
+            Pause = true;
+            SceneManager.LoadScene("PauseMenu", LoadSceneMode.Additive);
+        }
+
         RaycastHit2D hit = Physics2D.Raycast(transform.position, -transform.up, 1f);
         Debug.DrawLine(transform.position, transform.position - transform.up * 1f, Color.red);
 
@@ -87,7 +101,6 @@ public class MainCharacter : MonoBehaviour
 
         if (!disabled)
         {
-
             if (Time.timeScale == 0) return;
 
             if (Input.GetKey(KeyCode.A))
@@ -154,5 +167,12 @@ public class MainCharacter : MonoBehaviour
             }
         }
 
+        if (other.gameObject.CompareTag("Key"))
+        {
+            AudioManager.audioManager.PlayWin();
+            SceneManager.LoadScene("VictoryMenu");
+            MainCharacter.maincharacter = null;
+            Destroy(GameObject.Find("MainCharacter"));
+        }
     }
 }

@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/MainMenu.unity
+    path: Assets/Scenes/Menus/MainMenu.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Scenes/VVVVV.unity
@@ -29,4 +29,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/VVVVV7aSala.unity
     guid: e000c0ad2e4350847a77bcaac2d33669
+  - enabled: 1
+    path: Assets/Scenes/Menus/PauseMenu.unity
+    guid: fc67533c57391544287f7b300ebbbbc2
+  - enabled: 1
+    path: Assets/Scenes/Menus/VictoryMenu.unity
+    guid: be4558d537bfd824199206b689808a1f
   m_configObjects: {}
