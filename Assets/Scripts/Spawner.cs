@@ -5,7 +5,7 @@ using UnityEngine;
 public class Spawner : MonoBehaviour
 {
     public static Spawner spawner;
-    private float time = 1.7f;
+    private float time = 2.5f;
     public GameObject IceShard;
     [SerializeField] private GameObject SpawnPoint;
     [SerializeField] private int counter = 0;

@@ -22,5 +22,8 @@
 
   - **Projectil**: [Pimen](https://pimen.itch.io/ice-spell-effect-01).
 
+  - **Book**: [nyknck](https://nyknck.itch.io/magical-book).
+
+  - **Spikes**: [froggu999](https://froggu999.itch.io/stabby-spikes).
 
 

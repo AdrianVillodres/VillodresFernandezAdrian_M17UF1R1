@@ -6,7 +6,7 @@ public class AudioManager : MonoBehaviour
 {
     public static AudioManager audioManager;
     [SerializeField] private AudioSource backgoundMusic, hitSFX, DeathSFX, JumpSFX, ProyectileShootSFX, VictorySFX; 
-    void Start()
+    void Awake()
     {
         if (AudioManager.audioManager != null && AudioManager.audioManager != this)
         {
