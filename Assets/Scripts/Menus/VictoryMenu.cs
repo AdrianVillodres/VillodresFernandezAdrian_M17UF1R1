@@ -23,6 +23,7 @@ public class VictoryMenu : MonoBehaviour
         Destroy(GameObject.Find("MainCharacter"));
         SceneManager.LoadScene(1);
         Time.timeScale = 1;
+        Rune.lastCheckpointScene = 0;
     }
 
     public void ExitButton()
