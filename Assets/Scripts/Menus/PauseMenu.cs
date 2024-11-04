@@ -35,11 +35,8 @@ public class PauseMenu : MonoBehaviour
         Time.timeScale = 1;
     }
 
-    public void MainMenuButton()
+    public void ExitButton()
     {
-        MainCharacter.maincharacter = null;
-        Destroy(GameObject.Find("MainCharacter"));
-        SceneManager.LoadScene(0);
-        Time.timeScale = 1;
+        Application.Quit();
     }
 }
