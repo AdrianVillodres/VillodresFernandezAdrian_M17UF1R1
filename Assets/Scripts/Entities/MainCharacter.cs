@@ -22,8 +22,8 @@ public class MainCharacter : MonoBehaviour
         new List<Vector3> { new (-7.29f, 2.98f), new(-7.00f, -3.00f) },
         new List<Vector3> { new (7.24f, -2.97f), new(7.00f, 1.94f) },
         new List<Vector3> { new (-7.29f, 2.98f), new(-7.20f, -3.00f) },
-        new List<Vector3> { new (7.02f, -2.88f), new(-7.10f, -3.34f) },
-        new List<Vector3> { new (7.34f, -2.92f), new(0, 0) },
+        new List<Vector3> { new (7.02f, -2.88f), new(-7.10f, -3.00f) },
+        new List<Vector3> { new (7.34f, -2.99f), new(0, 0) },
     };
 
 
@@ -54,6 +54,14 @@ public class MainCharacter : MonoBehaviour
         }
 
         if (collision.gameObject.CompareTag("Enemy"))
+        {
+            DisablePlayer();
+            animator.SetBool("Die", disabled);
+            AudioManager.audioManager.PlayHit();
+            AudioManager.audioManager.PlayDeath();
+        }
+
+        if (collision.gameObject.CompareTag("Obstacle"))
         {
             DisablePlayer();
             animator.SetBool("Die", disabled);
