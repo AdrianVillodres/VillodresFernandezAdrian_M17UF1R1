@@ -7,7 +7,7 @@ public class Rune : MonoBehaviour
 {
     public int escenaUltimoCheckpoint;
     public Vector3 checkpointPosition;
-    public int lastCheckpointScene;
+    public static int lastCheckpointScene = 0;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,10 +17,9 @@ public class Rune : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(lastCheckpointScene);
-        if (SceneManager.GetActiveScene().buildIndex > lastCheckpointScene)
+        if (SceneManager.GetActiveScene().buildIndex <= lastCheckpointScene)
         {
-            Destroy(gameObject);
+            Destroy(GameObject.Find("Checkpoint"));
         }
 
     }
@@ -35,8 +34,9 @@ public class Rune : MonoBehaviour
                 escenaUltimoCheckpoint = SceneManager.GetActiveScene().buildIndex;
                 checkpointPosition = MainCharacter.maincharacter.transform.position;
                 lastCheckpointScene = currentSceneIndex;
+                Destroy(GameObject.Find("Checkpoint"));
             }
-            Destroy(gameObject);
+            
         }
     }
 }

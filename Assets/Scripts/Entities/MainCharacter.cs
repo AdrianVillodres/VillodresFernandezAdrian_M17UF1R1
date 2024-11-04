@@ -98,10 +98,10 @@ public class MainCharacter : MonoBehaviour
         }
 
         RaycastHit2D hit = Physics2D.Raycast(transform.position, -transform.up, 1f);
-        Debug.DrawLine(transform.position, transform.position - transform.up * 1f, Color.red);
+        Debug.DrawRay(transform.position, - transform.up * 1f, Color.red);
 
         RaycastHit2D hitup = Physics2D.Raycast(transform.position, -transform.up, -1f);
-        Debug.DrawLine(transform.position, transform.position - transform.up * -1f, Color.red);
+        Debug.DrawRay(transform.position, - transform.up * -1f, Color.red);
 
         bool TouchGround = hit.collider != null && hit.collider.gameObject.layer == LayerMask.NameToLayer("Ground");
         bool TouchInvertedGround = hitup.collider != null && hitup.collider.gameObject.layer == LayerMask.NameToLayer("Ground");
@@ -171,6 +171,7 @@ public class MainCharacter : MonoBehaviour
                 escenaUltimoCheckpoint = SceneManager.GetActiveScene().buildIndex;
                 checkpointPosition = maincharacter.transform.position;
                 lastCheckpointScene = currentSceneIndex;
+                AudioManager.audioManager.PlayCheckpoint();
             }
         }
 
